@@ -1,0 +1,127 @@
+  body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit',sans-serif;
+
+  }
+
+  h3 {
+    margin:0;
+    font-weight: 600;
+    font-size: 1.02rem;
+    padding: 0px 0px 0px 15px;
+    color: hsl(0, 0%, 100%);
+  }
+
+  .card {
+    border-radius: 12px;
+    width:20%;
+    height: 460px;
+    display:block;
+    background-color: hsl(216, 50%, 16%);
+    margin: 5% auto 5% auto;
+    box-shadow: 6px 6px 10px 6px black;
+
+
+  }
+  .eq {
+    width:88%;
+    border-radius: 8px;
+    margin: 15px 15px 15px 15px;
+    position: relative;
+  }
+
+
+  h3:hover{
+    color: hsl(178, 100%, 50%);
+    cursor:pointer;
+  }
+  span:hover {
+    color: hsl(178, 100%, 50%);
+    cursor:pointer;
+  }
+
+  .eq:hover {
+    opacity:0.1;
+    cursor:pointer;
+
+  }
+ .svg{
+    position: absolute;
+    padding:94px;
+
+
+}
+ .images:hover .svg {
+    opacity:0.9;
+    background-repeat: no-repeat;
+    background-color:  hsl(178, 100%, 50%);
+    margin:15px 10px 10px 15px;
+    padding:94px;
+    border-radius: 8px;
+    cursor: pointer;
+ }
+
+  .t1 {
+    font-size: 0.90em;
+    font-weight: 300;
+    padding:0px 0px 0px 15px;
+    color:hsl(215, 51%, 70%);
+
+  }
+
+  .left {
+    margin:0 0 3px 0;
+    font-size: 1.02rem;
+    font-weight: 300;
+    color: hsl(178, 100%, 50%);
+  }
+
+  .right{
+    margin:0 0 3px 0;
+    font-size: 1.02rem;
+    font-weight: 300;
+    color:hsl(215, 51%, 70%);
+  }
+
+  .table{
+    padding-left: 15px;
+  }
+
+  td:nth-of-type(2){
+    padding-right:40px;
+  }
+
+  hr {
+    border: 0.1px solid hsl(215, 32%, 27%);
+    width:83%;
+    border-bottom-style: none;
+    margin: 40px auto 25px 25px;
+    position: relative;
+    right:9px;
+    bottom:30px;
+  }
+
+  .pro{
+    margin:0;
+    border: solid 1px white;
+    border-radius: 20px;
+    position: relative;
+    left:17px;
+    width:20px;
+    bottom:40px;
+    height:20px;
+    float:left;
+  }
+
+  span {
+    color: hsl(0, 0%, 100%);
+  }
+
+  .t2 {
+  position: relative;
+  left:26PX;
+  font-size: 0.80rem;
+  bottom:37px;
+  font-weight:300;
+  color:hsl(215, 51%, 70%);
+  }
